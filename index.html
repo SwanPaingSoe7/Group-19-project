@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkinWise</title>
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Connects the CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header class="site-header">
+        <div class="page-width navigation">
+
+            <a href="index.html" class="logo">
+                <span class="logo-leaf"></span>
+                <span>SkinWise</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="ingredients.html">Ingredients</a>
+                <a href="beginner-guide.html">Beginner Guide</a>
+                <a href="about.html">About</a>
+            </nav>
+
+            <a
+            href="ingredients.html"
+            class="header-search"
+            aria-label="Search ingredients"
+            >
+            <span class="magnifier"></span>
+            </a>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Main introduction section -->
+        <section class="hero">
+            <div class="page-width hero-content">
+
+                <div class="hero-text">
+                    <h1>Understand What’s<br>Inside Your Skincare</h1>
+
+                    <p>
+                        A Facial Skincare Ingredient Guide for Beginners
+                    </p>
+
+                    <a href="ingredients.html" class="main-button">
+                        Explore Ingredients
+                    </a>
+                </div>
+
+                <!-- The main image will be added here later -->
+                <div class="hero-image">
+                    <img src="./IMG/skinwise-hero.jpeg" alt="Healthy and hydrated skin">
+                </div>
+            </div>
+        </section>
+
+        <!-- Search bar -->
+        <section class="search-section">
+        <form class="search-box" id="home-search-form">
+
+            <button
+            class="home-search-button"
+            type="submit"
+            aria-label="Search"
+        >
+                <span class="magnifier"></span>
+            </button>
+
+            <input
+            id="home-search-input"
+            type="search"
+            placeholder="Search an ingredient..."
+            aria-label="Search an ingredient"
+        >
+
+        </form>
+        </section>
+
+        <!-- Popular ingredients -->
+        <section class="popular-section" id="popular">
+            <div class="page-width">
+
+                <h2>Popular Ingredients</h2>
+
+                <div class="ingredient-grid">
+
+                    <!-- Ingredient 1 -->
+                    <article class="ingredient-card">
+                        <div class="ingredient-image">
+                            <img src="IMG/niacinamide.jpg" alt="Niacinamide">
+                        </div>
+
+                        <h3>Niacinamide</h3>
+
+                        <p>
+                            Supports the skin barrier and improves uneven skin tone.
+                        </p>
+                    </article>
+
+                    <!-- Ingredient 2 -->
+                    <article class="ingredient-card">
+                        <div class="ingredient-image">
+                            <img src="IMG/hyaluronic-acid.jpg" alt="Hyaluronic Acid">
+                        </div>
+
+                        <h3>Hyaluronic Acid</h3>
+
+                        <p>
+                            Helps retain moisture and hydrates the skin.
+                        </p>
+                    </article>
+
+                    <!-- Ingredient 3 -->
+                    <article class="ingredient-card">
+                        <div class="ingredient-image">
+                            <img src="IMG/vitamin-c.jpg" alt="Vitamin C">
+                        </div>
+
+                        <h3>Vitamin C</h3>
+
+                        <p>
+                            An antioxidant that brightens and protects the skin.
+                        </p>
+                    </article>
+
+                    <!-- Ingredient 4 -->
+                    <article class="ingredient-card">
+                        <div class="ingredient-image">
+                            <img src="IMG/salicylic-acid.jpg" alt="Salicylic Acid">
+                        </div>
+
+                        <h3>Salicylic Acid</h3>
+
+                        <p>
+                            Helps exfoliate the skin and clear blocked pores.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+     <script src="js/home.js"></script>
+
+     <footer class="site-footer">
+        <div class="page-width footer-content">
+            <p class="footer-title">Follow Us</p>
+
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+        </div>
+        </div>
+    </footer>
+
+</body>
+</html>

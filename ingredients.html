@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Ingredients | SkinWise</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header class="site-header">
+        <div class="page-width navigation">
+
+            <a href="index.html" class="logo">
+                <span class="logo-leaf"></span>
+                <span>SkinWise</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="ingredients.html" class="active">Ingredients</a>
+                <a href="beginner-guide.html">Beginner Guide</a>
+                <a href="about.html">About</a>
+            </nav>
+
+            <button class="header-search" type="button" aria-label="Search">
+                <span class="magnifier"></span>
+            </button>
+
+        </div>
+    </header>
+
+    <main class="library-page">
+        <div class="page-width">
+
+            <!-- Page title -->
+            <section class="library-heading">
+                <h1>Ingredient Library</h1>
+
+                <p>
+                    Explore common facial skincare ingredients
+                    and learn what they do.
+                </p>
+            </section>
+
+            <!-- Search and category selection -->
+            <section class="library-controls">
+
+                <div class="library-search">
+                    <span class="magnifier"></span>
+
+                    <input
+                        type="search"
+                        id="ingredient-search"
+                        placeholder="Search an ingredient..."
+                    >
+                </div>
+
+            </section>
+
+            <!-- Category buttons -->
+            <section class="filter-buttons">
+                <button class="filter-button active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-button" data-filter="hydrating">
+                    Hydrating
+                </button>
+
+                <button class="filter-button" data-filter="brightening">
+                    Brightening
+                </button>
+
+                <button class="filter-button" data-filter="exfoliating">
+                    Exfoliating
+                </button>
+
+                <button class="filter-button" data-filter="skin-barrier">
+                    Skin Barrier
+                </button>
+
+                <button class="filter-button" data-filter="soothing">
+                    Soothing
+                </button>
+            </section>
+
+            <!-- Ingredient cards -->
+            <section class="library-grid" id="ingredient-grid">
+
+                <article
+                    class="library-card"
+                    data-name="niacinamide"
+                    data-category="brightening skin-barrier"
+                >
+                    <div class="library-image"></div>
+                    <h2>Niacinamide</h2>
+                    <p>Brightening</p>
+                    <p>Skin Barrier</p>
+                </article>
+
+                <article
+                    class="library-card"
+                    data-name="hyaluronic acid"
+                    data-category="hydrating"
+                >
+                    <div class="library-image"></div>
+                    <h2>Hyaluronic Acid</h2>
+                    <p>Hydrating</p>
+                </article>
+
+                <article
+                    class="library-card"
+                    data-name="vitamin c"
+                    data-category="brightening"
+                >
+                    <div class="library-image"></div>
+                    <h2>Vitamin C</h2>
+                    <p>Brightening</p>
+                    <p>Antioxidant</p>
+                </article>
+
+                <article
+                    class="library-card"
+                    data-name="salicylic acid"
+                    data-category="exfoliating"
+                >
+                    <div class="library-image"></div>
+                    <h2>Salicylic Acid</h2>
+                    <p>Exfoliating</p>
+                </article>
+
+                <article
+                    class="library-card"
+                    data-name="ceramides"
+                    data-category="skin-barrier"
+                >
+                    <div class="library-image"></div>
+                    <h2>Ceramides</h2>
+                    <p>Skin Barrier</p>
+                </article>
+
+                <article
+                    class="library-card"
+                    data-name="retinol"
+                    data-category="skin-renewal"
+                >
+                    <div class="library-image"></div>
+                    <h2>Retinol</h2>
+                    <p>Skin Renewal</p>
+                </article>
+
+                <article
+                    class="library-card"
+                    data-name="glycerin"
+                    data-category="hydrating"
+                >
+                    <div class="library-image"></div>
+                    <h2>Glycerin</h2>
+                    <p>Hydrating</p>
+                </article>
+
+                <article
+                    class="library-card"
+                    data-name="centella asiatica"
+                    data-category="soothing"
+                >
+                    <div class="library-image"></div>
+                    <h2>Centella Asiatica</h2>
+                    <p>Soothing</p>
+                </article>
+
+            </section>
+
+        </div>
+    </main>
+
+    <script src="js/ingredients.js"></script>
+
+    <footer class="site-footer">
+    <div class="page-width footer-content">
+        <p class="footer-title">Follow Us</p>
+
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Ingredient Details | SkinWise</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header class="site-header">
+        <div class="page-width navigation">
+
+            <a href="index.html" class="logo">
+                <span class="logo-leaf"></span>
+                <span>SkinWise</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="ingredients.html" class="active">Ingredients</a>
+                <a href="beginner-guide.html">Beginner Guide</a>
+                <a href="about.html">About</a>
+            </nav>
+
+            <a
+                href="ingredients.html"
+                class="header-search"
+                aria-label="Search ingredients"
+            >
+                <span class="magnifier"></span>
+            </a>
+
+        </div>
+    </header>
+
+    <main class="detail-page">
+        <div class="page-width">
+
+            <!-- Back button -->
+            <a href="ingredients.html" class="back-link">
+                ← Back to Ingredients
+            </a>
+
+            <!-- Main ingredient information -->
+            <section class="detail-main">
+
+                <!-- Ingredient image will be added later -->
+                <img id="detail-image" class="detail-image" src="" alt="">
+
+                <div class="detail-content">
+
+                    <h1 id="detail-name">Loading ingredient...</h1>
+
+                    <div
+                        class="detail-categories"
+                        id="detail-categories"
+                    ></div>
+
+                    <section class="detail-text-section">
+                        <h2>What is it?</h2>
+
+                        <p id="detail-description">
+                            Loading ingredient information...
+                        </p>
+                    </section>
+
+                    <section class="detail-text-section">
+                        <h2>Main Benefits</h2>
+
+                        <ul
+                            class="benefits-list"
+                            id="detail-benefits"
+                        ></ul>
+                    </section>
+
+                </div>
+            </section>
+
+            <!-- Three information boxes -->
+            <section class="detail-information-grid">
+
+                <article class="detail-information-card">
+                    <h2>Commonly Found In</h2>
+
+                    <ul id="detail-found-in"></ul>
+                </article>
+
+                <article class="detail-information-card">
+                    <h2>Suitable For</h2>
+
+                    <ul id="detail-suitable-for"></ul>
+                </article>
+
+                <article class="detail-information-card">
+                    <h2>Beginner Tip</h2>
+
+                    <p id="detail-tip">
+                        Loading beginner tip...
+                    </p>
+                </article>
+
+            </section>
+
+            <!-- Educational disclaimer -->
+            <p class="detail-disclaimer">
+                SkinWise provides general educational information only.
+                It is not a substitute for professional medical or
+                dermatological advice.
+            </p>
+
+        </div>
+    </main>
+
+    <script src="js/ingredient-detail.js"></script>
+
+    <footer class="site-footer">
+    <div class="page-width footer-content">
+        <p class="footer-title">Follow Us</p>
+
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
