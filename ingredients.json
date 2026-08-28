@@ -1,0 +1,187 @@
+[
+    {
+        "id": "niacinamide",
+        "name": "Niacinamide",
+        "image": "IMG/niacinamide.jpg",
+        "categoryKeys": ["brightening", "skin-barrier"],
+        "categories": ["Brightening", "Skin Barrier"],
+        "summary": "Supports the skin barrier and helps improve uneven-looking skin tone.",
+        "description": "Niacinamide is a type of Vitamin B3 that dissolves in water and is a popular ingredient in skincare. Many studies show that using Niacinamide every day at a strength of 2% to 5% helps a lot. If you use Niacinamide for 4 to 8 weeks you will see that Niacinamide makes your skin barrier stronger stops much oil and helps fade dark spots.",
+        "benefits": [
+            "Assist the skin in producing ceramides, which strengthens the skins natural moisture barrier.",
+            "Control sebum production and reduce midday shine for the skin.",
+            "Refine the appearance of enlarged and stretched pores on the skin.",
+            "Fade spots and hyperpigmentation by blocking melanin transfer on the skin.",
+            "Reduce redness and soothe inflammation caused by acne or sensitivity on the skin.",
+            "Protect skin cells from damage and smooth fine lines, on the skin."
+        ],
+        "foundIn": [
+            "Moisturizers",
+            "Serums",
+            "Hydrating Toners & Essences",
+            "Sunscreens"
+        ],
+        "suitableFor": [
+            "Oily Skin",
+            "Dry Skin",
+            "Combination Skin",
+            "Sensitive Skin",
+            "Acne-prone Skin"
+        ],
+        "tip": "Starting with a low concentration of 2% to 5%.This is because starting high might make your skin feet itchy or look red at first. You do not need a high amount of Niacinamide to see great results. In fact using much Niacinamide can sometimes cause breakouts or redness if you have sensitive skin. Just wash your face apply Niacinamide and then put on a moisturizer."
+    },
+    {
+        "id": "hyaluronic-acid",
+        "name": "Hyaluronic Acid",
+        "image": "IMG/hyaluronic-acid.jpg",
+        "categoryKeys": ["hydrating"],
+        "categories": ["Hydrating"],
+        "summary": "Attracts water to help the skin feel hydrated.",
+        "description": "Hyaluronic Acid is a molecule found in the skin. It works like a sponge and can hold up to a thousand times its own weight in water. This keeps skin firm and very moist.",
+        "benefits": [
+            "Holds water molecules to deeply hydrate every layer of skin",
+            "plumps the skin to visibly smooth fine lines and surface wrinkles",
+            "restores moisture balance and improves skin elasticity",
+            "supports the skin barrier to guard against dryness and environmental stress",
+            "soothes irritated skin with a lightweight non‑greasy moisture boost"
+        ],
+        "foundIn": [
+            "Moisturizers",
+            "Hydrating Serums",
+            "Sheet Masks",
+            "Eye Creams",
+            "Hydrating Toners & Essences"
+        ],
+        "suitableFor": [
+            "Oily Skin",
+            "Dry Skin",
+            "Combination Skin",
+            "Sensitive Skin",
+            "Acne-prone Skin"
+        ],
+        "tip": "Always put Hyaluronic Acid onto skin that is just slightly damp after washing or toning then seal it with a moisturizer. If you apply it to skin that's completely dry, in a dry room it can actually pull water out of your skin instead of keeping it in."
+    },
+    {
+        "id": "vitamin-c",
+        "name": "Vitamin C",
+        "image": "IMG/vitamin-c.jpg",
+        "categoryKeys": ["brightening"],
+        "categories": ["Brightening", "Antioxidant"],
+        "summary": "An antioxidant commonly used to brighten dull-looking skin.",
+        "description": "Vitamin C, also known as ascorbic acid, is a water-soluble vitamin that is essential for overall health. The human body cannot produce vitamin C own its own, therefore, vitamin C can be obtained either from diet or topical products.",
+        "benefits": [
+            "support collagen production in skin",
+            "neutralize free radicals which are unstable molecules that can damage cells",
+            "help protect the skin from damage caused by harmful UV rays and pollution",
+            "reduce the appearance of wrinkles and dark spots",
+            "improve acne by reducing inflammation and controlling sebum production"
+        ],
+        "foundIn": [
+            "Moisturizers",
+            "Serums",
+            "Cleansers",
+            "Sunscreens",
+            "Spots Treatments"
+        ],
+        "suitableFor": [
+            "Oily Skin",
+            "Dry Skin",
+            "Combination Skin",
+            "Sensitive Skin",
+            "Acne-prone Skin"
+        ],
+        "tip": "Beginners should start by using Vitamin C product for only 2-3 times a week. If the skin tolerates it, you can use it more often. The products need to be stored properly as it can degrade due to temperature and sunlight. Vitamin C should not be used together with retinol and exfoliating products such as AHA/BHA as it can cause skin irritation."
+    },
+    {
+        "id": "salicylic-acid",
+        "name": "Salicylic Acid",
+        "image": "IMG/salicylic-acid.jpg",
+        "categoryKeys": ["exfoliating"],
+        "categories": ["Exfoliating"],
+        "summary": "Helps remove oil and dead skin cells from blocked pores.",
+        "description": "Salicylic acid is a hydroxy acid that comes from the bark of willow trees. It is commonly used in skincare products and in chemical peels that treat acne because of its exfoliating effect. It belongs to a group called salicylates, which also contains medicines such, as aspirin.",
+        "benefits": [
+            "Clean pores by dissolving excess sebum and dirt inside them",
+            "Treat blackheads, whiteheads and pimples by keeping pores clear",
+            "Make skin brighter and smoother by gently removing dead skin cells",
+            "Control oil production and reduce shine",
+            "Reduce inflammation and redness associated with acne"
+        ],
+        "foundIn": [
+            "Moisturizers",
+            "Cleansers",
+            "Serums",
+            "Exfoliants"
+        ],
+        "suitableFor": [
+            "Oily skin",
+            "Acne-prone skin",
+            "Combination Skin"
+        ],
+        "tip": "Start with a low concentration of salicylic acid,(0.5 - 2 %) and use it only 2-3 times a week. First, apply the acid to clean and dry skin. Then put on a moisturizer. Always use sunscreen during the day. If skin tolerates it well, gradually increase the use of salicylic acid. If your skin becomes very dry, red or irritated, reduce or stop using it."
+    },
+    {
+        "id": "ceramides",
+        "name": "Ceramides",
+        "image": "IMG/ceramides.jpg",
+        "categoryKeys": ["skin-barrier"],
+        "categories": ["Skin Barrier"],
+        "summary": "Lipids that help support the skin's protective barrier."
+    },
+    {
+        "id": "retinol",
+        "name": "Retinol",
+        "image": "IMG/retinol.jpg",
+        "categoryKeys": ["skin-renewal"],
+        "categories": ["Skin Renewal"],
+        "summary": "A vitamin A derivative commonly used to support skin renewal."
+    },
+    {
+        "id": "glycerin",
+        "name": "Glycerin",
+        "image": "IMG/glycerin.jpg",
+        "categoryKeys": ["hydrating"],
+        "categories": ["Hydrating"],
+        "summary": "A humectant that helps attract water to the outer skin."
+    },
+    {
+        "id": "centella-asiatica",
+        "name": "Centella Asiatica",
+        "image": "IMG/centella-asiatica.jpg",
+        "categoryKeys": ["soothing"],
+        "categories": ["Soothing"],
+        "summary": "A botanical ingredient commonly used in soothing products."
+    },
+    {
+        "id": "alpha-arbutin",
+        "name": "Alpha Arbutin",
+        "image": "IMG/alpha-arbutin.jpg",
+        "categoryKeys": ["brightening"],
+        "categories": ["Brightening"],
+        "summary": "Used in products designed for uneven-looking skin tone."
+    },
+    {
+        "id": "azelaic-acid",
+        "name": "Azelaic Acid",
+        "image": "IMG/azelaic-acid.jpg",
+        "categoryKeys": ["brightening", "soothing"],
+        "categories": ["Brightening", "Soothing"],
+        "summary": "Commonly used to support clearer and more even-looking skin."
+    },
+    {
+        "id": "glycolic-acid",
+        "name": "Glycolic Acid",
+        "image": "IMG/glycolic-acid.jpg",
+        "categoryKeys": ["exfoliating"],
+        "categories": ["Exfoliating"],
+        "summary": "An alpha hydroxy acid that exfoliates the skin's surface."
+    },
+    {
+        "id": "lactic-acid",
+        "name": "Lactic Acid",
+        "image": "IMG/lactic-acid.jpg",
+        "categoryKeys": ["exfoliating", "hydrating"],
+        "categories": ["Exfoliating", "Hydrating"],
+        "summary": "An alpha hydroxy acid used for gentle surface exfoliation."
+    }
+]
